@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
-import InstagramIcon from "../../Icons/InstagramIcon";
-import YoutubeIcon from "../../Icons/YoutubeIcon";
+import SkypeIcon from "../../Icons/SkypeIcon";
+import TelegramIcon from "../../Icons/TelegramIcon";
 
 const IconClickableWithAnimation = props => {
   return (
@@ -32,13 +32,13 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         <div className="flex flex-col space-y-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center space-y-5">
             {/* Github Icon */}
-            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/hktitof"} />
+            <IconClickableWithAnimation Icon={GithubIcon} href={"https://github.com/louis-dev0725"} />
             {/* Linkedin icon */}
-            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/abdellatif-anaflous/"} />
-            {/* Instagram Icon */}
-            <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} />
-            {/* Youtube Icon */}
-            <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://www.youtube.com/@abdellatif_anaflous"} />
+            <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/"} />
+            {/* Telegram Icon */}
+            <IconClickableWithAnimation Icon={TelegramIcon} href={"https://t.me/LioDev0308"} />
+            {/* Skype Icon */}
+            <IconClickableWithAnimation Icon={SkypeIcon} href={"live:.cid.751087c2fdbcb337"} />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>
@@ -62,9 +62,9 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             }}
             className=""
           >
-            <a href="mailto:abdellatif@anaflous.com" target={"_blank"} rel="noreferrer">
+            <a href="mailto:louis.walter0725@gmail.com" target={"_blank"} rel="noreferrer">
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                abdellatif<span className="text-AAsecondary">@</span>anaflous<span className="text-AAsecondary">.</span>com
+                louis.walter0725<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
               </span>
             </a>
           </motion.div>

@@ -7,7 +7,7 @@ export default function ThisCantBeReached() {
   React.useEffect(() => {
     setTimeout(function () {
       setShowText(true);
-    }, 1000);
+    }, 500);
   }, []);
   if (typeof window !== "undefined") {
     if(window.innerHeight>640){
@@ -191,7 +191,7 @@ export default function ThisCantBeReached() {
             be reached
           </span>
           <span className="text-gray-500 text-md">
-            <span className="font-bold">www.anaflous.com </span>
+            <span className="font-bold">www.louis-walter-dev0725.vercel.app </span>
             unexpectedly{" "}
             {ShowText ? (
               <motion.span
