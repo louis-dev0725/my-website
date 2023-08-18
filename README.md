@@ -1,11 +1,11 @@
 <div align="center">
-  <img alt="Logo" src="https://github-production-user-asset-6210df.s3.amazonaws.com/115100114/261684326-1442eb6d-ad83-4c41-a39c-4e887eb59d1d.png" width="100" />
+  <img alt="Logo" src="https://github-production-user-asset-6210df.s3.amazonaws.com/140221270/261695020-61a17c2f-b790-434e-b8c4-d85a398a4830.png" width="100" />
 </div>
 <h1 align="center">
-  louis-walter-dev0725.vercel.com - v1
+  louis-walter-dev0725.vercel.app - v1
 </h1>
 <p align="center">
-  The first iteration of <a href="https://louis-walter-dev0725.vercel.app/" target="_blank">louis-walter-dev0725.vercel.com</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of <a href="https://louis-walter-dev0725.vercel.app/" target="_blank">louis-walter-dev0725.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Nextjs</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 ### Table of Contents
 
 - [Description](#description)
-- [Technologies & libraries](#technologies-&-libraries)
+- [Technologies and libraries ](#technologies-and-libraries)
 - [🎨 Color Reference](#references)
 - [License](#license)
 - [Author Info](#author-info)
@@ -35,7 +35,7 @@ Also, Next.js helps us build a full back-end & blazing-fast websites along with 
 Why Tailwindcss? Because TailwindCSS, a utility-first CSS framework, is a framework that saves you a lot of styling effort. It has low level CSS classes that you can directly embed into the HTML code.
 
 ---
-## Technologies & libraries
+## Technologies and libraries
 
 - Next.js
 - TypeScript
