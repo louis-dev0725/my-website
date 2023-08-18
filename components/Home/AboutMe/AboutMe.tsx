@@ -45,7 +45,7 @@ export default function AboutMe(props) {
                 app development, working across various industries. I have honed my expertise in HTML,  
                 CSS, JavaScript, TypeScript, React, Next.js, Vue.js, Nuxt.js, Angular, React Native, 
                 Ionic framework, Electron.js, Tailwind CSS, Material UI, Chakra UI, Node.js, Nest.js, 
-                PHP, and Laravel, among others. I'm also interested 
+                PHP, and Laravel, among others. I&apos;m also interested 
                 in Web3 and Solidity.
               </span>
             </div>
