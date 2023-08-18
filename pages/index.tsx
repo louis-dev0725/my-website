@@ -51,14 +51,14 @@ export default function Home() {
   }, [context, context.sharedState]);
 
   useEffect(() => {
-    Aos.init({ duration: 2000, once: true });
+    Aos.init({ duration: 500, once: true });
   }, []);
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    title: "Louis Walter - Web Developer",
+    description: `I've been working on Web development for over 6 years straight. Get in touch with me to know more.`,
+    image: "/myPortfolio.png",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -69,8 +69,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta property="og:url" content={`louis-walter-dev0725.vercel.app`} />
+        <link rel="canonical" href={`louis-walter-dev0725.vercel.app`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
@@ -93,7 +93,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/louis-dev0725/my-website"} hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}

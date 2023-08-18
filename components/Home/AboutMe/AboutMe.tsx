@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["JavaScript (ES6+)", "React", "Vue.js", "Angular", "Ionic framework", "Material UI", "Node.js", "PHP"],
+    ["TypeScript", "Next.js", "Nuxt.js", "React Native", "Tailwind CSS", "BootStrap", "Nest.js", "Laravel"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,36 +29,35 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
-                I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
-                would become essential in pursuing this interest, marking the start of my programming journey.
+                Hello! My name is <span className="text-AAsecondary">Louis Walter</span>, 
+                a <span className="text-AAsecondary">talented software engineer</span> with 
+                a <span className="text-AAsecondary">strong passion</span> for 
+                <span className="text-AAsecondary"> problem-solving</span> and creating 
+                <span className="text-AAsecondary"> impactful codes</span>. I embarked on my computer science 
+                journey in 2014, initially exploring game developing. However, I soon realized 
+                the importance of <span className="text-AAsecondary">web programming</span> skills and began my journey.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+                Throughout my career, I have gained extensive experience in 
+                <span className="text-AAsecondary"> web, mobile and desktop </span> 
+                app development, working across various industries. I have honed my expertise in HTML,  
+                CSS, JavaScript, TypeScript, React, Next.js, Vue.js, Nuxt.js, Angular, React Native, 
+                Ionic framework, Electron.js, Tailwind CSS, Material UI, Chakra UI, Node.js, Nest.js, 
+                PHP, and Laravel, among others. I'm also interested 
+                in Web3 and Solidity.
               </span>
             </div>
-            {/* <div className="font-Header tracking-wide">
-              <span className="text-gray-400  ">
-                Fast-forward to today, I&apos;ve had the privilege of working at
-                <span className="text-AAsecondary"> a huge manufacturing company</span>,
-                <span className="text-AAsecondary"> a start-up</span>,{" "}
-                <span className="text-AAsecondary">export-import companies</span>, also
-                <span className="text-AAsecondary"> freelancing</span> and recently as Lead for the{" "}
-                <span className="text-AAsecondary">Google Developer Student club</span>. Experienced in Desktop & Web
-                Development, lately with Arduino Development. My main focus these days is creating and testing{" "}
-                <span className="text-AAsecondary">Smart Contracts</span> with Hardhat.
+            <div className="font-Header ">
+              <span className="text-gray-400 ">
+                My dedication to pushing boundaries and driving advancements is particularly evident 
+                in my work in the <span className="text-AAsecondary">frontend development</span>.  
+                My passion for <span className="text-AAsecondary">frontend development</span> and 
+                <span className="text-AAsecondary"> continuous learning fuels</span> my desire to make a 
+                positive impact and contribute to the advancement of technology.
               </span>
-            </div> */}
-
+            </div>
             <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Here are a few technologies I&apos;ve been working with recently :
@@ -102,7 +101,7 @@ export default function AboutMe(props) {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/Portfolio-portrait.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
@@ -113,7 +112,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/Portfolio-portrait.png"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
