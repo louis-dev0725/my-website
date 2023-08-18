@@ -224,7 +224,7 @@ export default function SomethingIveBuilt() {
                 In <span className="text-AAsecondary">Jacuzzi</span>, my role was also frontend development, and they had existing team, 
                 so I need to collaborate with them.
                 We worked with <span className="text-AAsecondary">Agile</span> systems and chose <span className="text-AAsecondary">Async</span> working method since the timezone problem. 
-                The communication was great, and I contributed to the product's success.
+                The communication was great, and I contributed to the product&apos;s success.
                 </p>
               </div>
               <ul
@@ -290,7 +290,7 @@ export default function SomethingIveBuilt() {
                 <p className="text-gray-300 md:text-gray-400 text-left ">
                 The <span className="text-AAsecondary">ShiftKey</span> app allows you to connect CNAs, LPNs, RNs, RTs, PTs 
                 and other healthcare professionals with open shifts at facilities in your area. 
-                In this project, we discussed what'll to use for the project 
+                In this project, we discussed what&apos;ll to use for the project 
                 and decided to use <span className="text-AAsecondary"></span>React Native for fast and high-quality development.
                 It was a <span className="text-AAsecondary">high-quality mobile app </span> 
                 that is not only <span className="text-AAsecondary">visually appealing </span> 
@@ -434,7 +434,7 @@ export default function SomethingIveBuilt() {
                 <p className="text-gray-300 md:text-gray-400 text-left ">
                   A <span className="text-AAsecondary">Mava</span> is a small 
                   <span className="text-AAsecondary"> AI avatar</span> generation project. 
-                  It transforms your selfies into captivating and personalized portraits with Mava's AI-powered platform. 
+                  It transforms your selfies into captivating and personalized portraits with Mava&apos;s AI-powered platform. 
                   My role was front-end development, I developed it <span className="text-AAsecondary">from scratch </span> 
                   using <span className="text-AAsecondary">React, Redux, and Tailwind CSS</span>, 
                   and implemented a <span className="text-AAsecondary">fully responsive</span> design for all devices.
