@@ -106,7 +106,7 @@ const CompaniesBar = props => {
         ></motion.div>
       </div>
       {/* // ? Companies name as buttons */}
-      <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
+      <div className="flex flex-col md:order-2 order-1 space-y-1 ">
         <div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}

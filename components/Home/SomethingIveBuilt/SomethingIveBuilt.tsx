@@ -316,7 +316,7 @@ export default function SomethingIveBuilt() {
         </div>
 
         {/* // ? Project 5 */}
-        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 md:mt-[196px]">
+        <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 md:!mt-[146px]">
           {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 

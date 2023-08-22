@@ -1,7 +1,7 @@
 import React from "react";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedinIcon";
-import SkypeIcon from "../Icons/SkypeIcon";
+import DiscordIcon from "../Icons/DiscordIcon";
 import TelegramIcon from "../Icons/TelegramIcon";
 const ClickableIcon = props => {
   return (
@@ -14,7 +14,7 @@ const IconsData = [
   { href: "https://github.com/louis-dev0725", Icon: GithubIcon },
   { href: "https://www.linkedin.com/in/louis-dev0725/", Icon: LinkedinIcon },
   { href: "https://t.me/LioDev0308", Icon: TelegramIcon },
-  { href: "live:.cid.751087c2fdbcb337", Icon: SkypeIcon },
+  { href: "https://discord.gg/NScWgpWHU8", Icon: DiscordIcon },
 ];
 
 export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
