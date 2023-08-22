@@ -42,3 +42,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media (min-width: 768px) {
+  .md\:mt-\[196px\] {
+    margin-top: 196px !important;
+  }
+}
