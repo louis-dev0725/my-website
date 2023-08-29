@@ -93,7 +93,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@Louis Walter](https://www.linkedin.com/in//)
+- Linkedin - [@Louis Walter](https://www.linkedin.com/in/louis-walter-dev0725//)
 - Website - [Louis Walter](https://louis-walter-dev0725.vercel.app/)
 
 [Back To The Top](#description) :
