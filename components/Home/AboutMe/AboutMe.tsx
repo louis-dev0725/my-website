@@ -23,6 +23,20 @@ export default function AboutMe(props) {
           </div>
           <div className="bg-gray-400 h-[0.2px] w-full sm:w-72 ml-4"></div>
         </div>
+
+        {/* // ?Image in Mobile */}
+        <div className=" relative w-full h-48 md:hidden  flex justify-center items-center !my-16">
+          <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
+          <div className="absolute w-48 h-full rounded overflow-hidden">
+            <Img
+              src={"/Portfolio-portrait.png"}
+              className={"object-contain rounded-lg"}
+              alt="My Image Not Found"
+            />
+          </div>
+          <div className="absolute w-48 h-full  bg-AAsecondary opacity-10 md:opacity-60  rounded overflow-hidden"></div>
+        </div>
+
         {/* // ? Paragraphs */}
 
         <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
@@ -106,18 +120,6 @@ export default function AboutMe(props) {
                 alt="My Image Not Found"
               />
             </div>
-          </div>
-          {/* // ?Image in Mobile */}
-          <div className=" relative w-full h-48 md:hidden  flex justify-center items-center">
-            <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
-            <div className="absolute w-48 h-full rounded overflow-hidden">
-              <Img
-                src={"/Portfolio-portrait.png"}
-                className={"object-contain rounded-lg"}
-                alt="My Image Not Found"
-              />
-            </div>
-            <div className="absolute w-48 h-full  bg-AAsecondary opacity-10 md:opacity-60  rounded overflow-hidden"></div>
           </div>
         </div>
       </div>
